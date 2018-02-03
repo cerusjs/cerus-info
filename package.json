@@ -1,0 +1,21 @@
+{
+	"name": "cerus-info",
+	"version": "0.0.1",
+	"description": "The info module for CerusJS",
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/cerusjs/cerus-info.git"
+	},
+	"author": "cerusjs",
+	"bugs": {
+		"url": "https://github.com/cerusjs/cerus-info/issues"
+	},
+	"scripts": {
+		"lint": "eslint lib/"
+	},
+	"homepage": "https://github.com/cerusjs/cerus-info",
+	"dependencies": {
+		"systeminformation": "^3.33.18"
+	}
+}
