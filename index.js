@@ -9,7 +9,7 @@ module.exports = function() {
 		"cerus-promise"
 	];
 
-	plugin.init_ = function(cerus) {
+	plugin._init = function(cerus) {
 		info = require("./lib/info")(cerus);
 	}
 
